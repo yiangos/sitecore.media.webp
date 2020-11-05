@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
+  <system.webServer>
+    <handlers>
+      <add verb="*" path="sitecore_media.ashx" type="Yiangos.Foundation.MediaWebP.MediaRequest.MediaRequestHandler, Yiangos.Foundation.MediaWebP" name="Sitecore.MediaRequestHandler" xdt:Transform="SetAttributes" xdt:Locator="Match(path)" />
+    </handlers>
+  </system.webServer>
+</configuration>
