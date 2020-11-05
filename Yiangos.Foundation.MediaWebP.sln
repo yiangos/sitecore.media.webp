@@ -3,7 +3,24 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30503.244
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yiangos.Foundation.MediaWebP", "Yiangos.Foundation.MediaWebP\Yiangos.Foundation.MediaWebP.csproj", "{317FB970-3EF6-4920-827C-0B156C412E14}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yiangos.Foundation.MediaWebP", "Foundation\WebP\code\Yiangos.Foundation.MediaWebP.csproj", "{317FB970-3EF6-4920-827C-0B156C412E14}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependencies", "Dependencies", "{F2643B2A-313D-444D-9DB2-2FEF25A7D0DF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "libwebp", "libwebp", "{FB5A93C5-EEC2-4A76-A1F2-1CC768425192}"
+	ProjectSection(SolutionItems) = preProject
+		Dependencies\libwebp\Readme.md = Dependencies\libwebp\Readme.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "x64", "x64", "{4271EBBD-F2D7-4175-BE39-742CEDE2BBC0}"
+	ProjectSection(SolutionItems) = preProject
+		Dependencies\libwebp\x64\libwebp.dll = Dependencies\libwebp\x64\libwebp.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "x86", "x86", "{87CAF819-D143-43B5-AF42-3FD210E19F22}"
+	ProjectSection(SolutionItems) = preProject
+		Dependencies\libwebp\x86\libwebp.dll = Dependencies\libwebp\x86\libwebp.dll
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,6 +35,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FB5A93C5-EEC2-4A76-A1F2-1CC768425192} = {F2643B2A-313D-444D-9DB2-2FEF25A7D0DF}
+		{4271EBBD-F2D7-4175-BE39-742CEDE2BBC0} = {FB5A93C5-EEC2-4A76-A1F2-1CC768425192}
+		{87CAF819-D143-43B5-AF42-3FD210E19F22} = {FB5A93C5-EEC2-4A76-A1F2-1CC768425192}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9430A766-BC46-4D7D-BCDB-85AF7A7F1902}
