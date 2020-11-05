@@ -1,2 +1,2 @@
 # sitecore.media.webp
-Media handler override to serve images in webp format
+Media handler override to convert images in webp format on the fly.
