@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Yiangos.Foundation.Media.WebP")]
+[assembly: AssemblyTitle("Yiangos.Foundation.MediaWebP")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Yiangos.Foundation.Media.WebP")]
+[assembly: AssemblyProduct("Yiangos.Foundation.MediaWebP")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("d0132b00-6197-4e2c-bd9c-a2273ef44ad4")]
+[assembly: Guid("317fb970-3ef6-4920-827c-0b156c412e14")]
 
 // Version information for an assembly consists of the following four values:
 //

@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30503.244
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yiangos.Foundation.MediaWebP", "Foundation\WebP\code\Yiangos.Foundation.MediaWebP.csproj", "{317FB970-3EF6-4920-827C-0B156C412E14}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependencies", "Dependencies", "{F2643B2A-313D-444D-9DB2-2FEF25A7D0DF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "libwebp", "libwebp", "{FB5A93C5-EEC2-4A76-A1F2-1CC768425192}"
@@ -22,16 +20,18 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "x86", "x86", "{87CAF819-D14
 		Dependencies\libwebp\x86\libwebp.dll = Dependencies\libwebp\x86\libwebp.dll
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yiangos.Foundation.Media.WebP", "Foundation\WebP\code\Yiangos.Foundation.Media.WebP.csproj", "{D0132B00-6197-4E2C-BD9C-A2273EF44AD4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{317FB970-3EF6-4920-827C-0B156C412E14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{317FB970-3EF6-4920-827C-0B156C412E14}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{317FB970-3EF6-4920-827C-0B156C412E14}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{317FB970-3EF6-4920-827C-0B156C412E14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0132B00-6197-4E2C-BD9C-A2273EF44AD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0132B00-6197-4E2C-BD9C-A2273EF44AD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0132B00-6197-4E2C-BD9C-A2273EF44AD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0132B00-6197-4E2C-BD9C-A2273EF44AD4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

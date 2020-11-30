@@ -6,8 +6,25 @@ using System.Web;
 namespace Yiangos.Foundation.MediaWebP.MediaRequest
 {
     // Sitecore.Resources.Media.MediaRequestHandler
+    using Sitecore;
+    using Sitecore.Configuration;
+    using Sitecore.Data;
+    using Sitecore.Data.Items;
     using Sitecore.Diagnostics;
+    using Sitecore.Events;
+    using Sitecore.Globalization;
+    using Sitecore.Pipelines.GetResponseCacheHeaders;
+    using Sitecore.Resources;
     using Sitecore.Resources.Media;
+    using Sitecore.Resources.Media.Streaming;
+    using Sitecore.Security.Accounts;
+    using Sitecore.SecurityModel;
+    using Sitecore.Sites;
+    using Sitecore.Text;
+    using Sitecore.Web;
+    using Sitecore.Web.Authentication;
+    using System;
+    using System.Collections.Generic;
     using System.Web;
 
     /// <summary>
